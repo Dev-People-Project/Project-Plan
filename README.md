@@ -43,10 +43,11 @@ Public Cloud : AWS (EC2, EKS)
 Container Vir : Docker, k8s 
 Backing Service : Kafka - 예약, 회원  
 
-구현
-프론트엔드 : /, /member, /reserve, /admin
-백엔드 : 1. DB설계
-	 2. 화면단에서 예약현황 나오게해서 예약 할수있는지 없는지 표시
+## 구현
+- 프론트엔드 : /, /member, /reserve, /admin
+- 백엔드 : 
+ - DB설계
+ - 화면단에서 예약현황 나오게해서 예약 할수있는지 없는지 표시
 	 3. 예약이 된다면 클릭시 회원(Phone_number, passowrd)입력 창 띄우기
 	 4. 만들어지면 member DB에 send
 	 5. 예약 창으로 이동
