@@ -36,19 +36,20 @@
 
 ## 역할
 
-Front-end : Html 등 			# 
-DB : MySQL - 회원, 예약			# 
-Back-end : NodeJS, Flask  		#
-Public Cloud : AWS (EC2, EKS)
-Container Vir : Docker, k8s 
-Backing Service : Kafka - 예약, 회원  
+- Front-end : Html 등 			# 강연옥님, 주윤재님
+- DB : MySQL - 회원, 예약		     # 조현재, 이재성님, 김현주님
+- Back-end : NodeJS, Flask  		
+- Public Cloud : AWS (EC2, EKS)
+- Container Vir : Docker, k8s 
+- Backing Service : Kafka - 예약, 회원  
+
 
 ## 구현
 - 프론트엔드 : /, /member, /reserve, /admin
 - 백엔드 : 
- - DB설계
- - 화면단에서 예약현황 나오게해서 예약 할수있는지 없는지 표시
-	 3. 예약이 된다면 클릭시 회원(Phone_number, passowrd)입력 창 띄우기
-	 4. 만들어지면 member DB에 send
-	 5. 예약 창으로 이동
-	 6. 예약창에서 날짜 선택, 지역선택, 시간 선택, 인원 수
+- DB설계
+- 화면단에서 예약현황 나오게해서 예약 할수있는지 없는지 표시
+- 예약이 된다면 클릭시 회원(Phone_number, passowrd)입력 창 띄우기
+- 만들어지면 member DB에 send
+- 예약 창으로 이동
+- 예약창에서 날짜 선택, 지역선택, 시간 선택, 인원 수
