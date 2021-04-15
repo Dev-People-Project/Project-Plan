@@ -35,6 +35,7 @@ CREATE TABLE if NOT EXISTS store(
 	store_name VARCHAR(20) NOT NULL,
 	store_description VARCHAR(150) NULL,
 	contact_number VARCHAR(15) NULL,
+	category VARCHAR(20) NOT NULL,
 	license_number VARCHAR(20) NOT NULL,
 	location_number VARCHAR(20) NOT NULL,
 	created_at DATETIME DEFAULT CURRENT_TIMESTAMP(),
