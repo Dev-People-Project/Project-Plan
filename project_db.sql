@@ -10,9 +10,9 @@ CREATE TABLE if NOT EXISTS users(
 
 CREATE TABLE if NOT EXISTS organization(
 	org_id INT(10) AUTO_INCREMENT,
-	company VARCHAR(50) NOT NULL,
+	company_name VARCHAR(50) NOT NULL,
 	manager_name VARCHAR(50) NOT NULL,
-	manage_phone_number varchar(20) NULL,
+	manager_contact varchar(20) NULL,
 	created_at DATETIME DEFAULT CURRENT_TIMESTAMP(),
 	PRIMARY KEY (org_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
