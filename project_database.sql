@@ -3,6 +3,7 @@ USE mydb;
 CREATE TABLE if NOT EXISTS users(
 	user_no INT(20) AUTO_INCREMENT,
 	user_category VARCHAR(40) NOT NULL, # 관리자, 판매자, 주최자, 고객
+	email VARCHAR(50) UNIQUE KEY,
 	user_name VARCHAR(35) NOT NULL,
 	phone_number VARCHAR(20) NULL,
 	last_modify DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
