@@ -1,13 +1,13 @@
 USE mydb;
-INSERT INTO users (user_category, user_name, phone_number) 
+INSERT INTO users (user_category, email, user_name, phone_number) 
 VALUES 
-('관리자', '조현재', '010-0000-0000'),
-('주최자', '주윤재', '010-1111-1111'),
-('주최자', '이재성', '010-6666-6666'),
-('판매자', '고원영', '010-2222-2222'),
-('판매자', '고원영', '010-3333-3333'),
-('고객', '이재성', '010-4444-4444'),
-('고객', '김현주', '010-5555-5555');
+('관리자', 'admin@amdin.com', '조현재', '010-0000-0000'),
+('주최자', 'aa@amdin.com', '주윤재', '010-1111-1111'),
+('주최자', 'bb@amdin.com', '이재성', '010-6666-6666'),
+('판매자', 'cc@amdin.com', '고원영', '010-2222-2222'),
+('판매자', 'dd@amdin.com', '고원영', '010-3333-3333'),
+('고객', 'ee@amdin.com', '이재성', '010-4444-4444'),
+('고객', 'ff@amdin.com', '김현주', '010-5555-5555');
 
 INSERT INTO festival (user_no, company_name, festival_name, period, location, url)
 VALUES
