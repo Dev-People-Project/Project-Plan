@@ -59,7 +59,7 @@ INSERT INTO orders (user_no, store_id, total_qty, total_price, requests)
 VALUES
 (1, 3, 1, 18000, '리뷰이벤트할게요'),
 (2, 6, 2, 23000, '리뷰이벤트할게요'),
-(3, 9, 1, 8000, '리뷰이벤트할게요');
+(2, 9, 1, 8000, '리뷰이벤트할게요');
 
 INSERT INTO order_detail (order_id, menu_id, food_price, food_qty)
 VALUES
