@@ -1,19 +1,19 @@
 USE mydb;
 INSERT INTO users (user_category, email, user_name, phone_number) 
 VALUES 
-('관리자', 'admin@amdin.com', '조현재', '010-0000-0000'),
-('주최자', 'aa@amdin.com', '주윤재', '010-1111-1111'),
-('주최자', 'bb@amdin.com', '이재성', '010-6666-6666'),
-('판매자', 'cc@amdin.com', '고원영', '010-2222-2222'),
-('판매자', 'dd@amdin.com', '고원영', '010-3333-3333'),
-('고객', 'ee@amdin.com', '이재성', '010-4444-4444'),
-('고객', 'ff@amdin.com', '김현주', '010-5555-5555');
+('admin', 'admin@amdin.com', 'hyeonjae', '010-0000-0000'),
+('org', 'aa@amdin.com', 'iu', '010-1111-1111'),
+('org', 'bb@amdin.com', 'suzy', '010-6666-6666'),
+('seller', 'cc@amdin.com', 'jaesung', '010-2222-2222'),
+('seller', 'dd@amdin.com', 'wonyung', '010-3333-3333'),
+('customer', 'ee@amdin.com', 'yoonjae', '010-4444-4444'),
+('customer', 'ff@amdin.com', 'hyeonjoo', '010-5555-5555');
 
 INSERT INTO festival (user_no, company_name, festival_name, period, location, url)
 VALUES
-(2, '삼성', '청춘 페스티벌', '2021-04-16~2021-04-18', '서울특별시 한강공원', 'http://wwww.seoulfestival.com'),
-(3, '카카오', '도깨비 야시장', '2021-04-21~2021-04-25', '서울특별시 한강공원', 'http://wwww.goblin.com'),
-(3, '카카오', '락페스티벌', '2021-05-20~2021-05-22', '서울특별시 한강공원', 'http://wwww.rockfestival.com');
+(2, 'samsung', 'chungchun festival', '2021-04-16~2021-04-18', 'hangang', 'http://wwww.seoulfestival.com'),
+(3, 'kakao', 'goblin night market', '2021-04-21~2021-04-25', 'hangang', 'http://wwww.goblin.com'),
+(3, 'kakao', 'rock festival', '2021-05-20~2021-05-22', 'hangang', 'http://wwww.rockfestival.com');
 
 INSERT INTO store (festival_id, store_name, store_description, contact_number, category, license_number, location_number)
 VALUES
@@ -55,7 +55,7 @@ INSERT INTO orders (user_no, store_id, total_qty, total_price, requests)
 VALUES
 (1, 3, 1, 18000, '리뷰이벤트할게요'),
 (2, 6, 2, 23000, '리뷰이벤트할게요'),
-(2, 9, 1, 8000, '리뷰이벤트할게요');
+(3, 9, 1, 8000, '리뷰이벤트할게요');
 
 INSERT INTO order_detail (order_id, menu_id, food_price, food_qty)
 VALUES
