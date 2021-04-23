@@ -2,7 +2,7 @@ USE mydb;
 INSERT INTO users (user_category, email, user_name, phone_number) 
 VALUES 
 ('admin', 'admin@amdin.com', 'hyeonjae', '010-0000-0000'),
-('org', 'aa@org.com', 'iu', '010-1111-1111'),
+('manager', 'aa@org.com', 'iu', '010-1111-1111'),
 ('seller', 'aa@seller.com', 'jaesung', '010-2222-2222'),
 ('seller', 'dd@seller.com', 'jaesung2', '010-3333-3333'),
 ('seller', 'cc@seller.com', 'jaesung3', '010-3333-3333'),
